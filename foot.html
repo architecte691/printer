@@ -1,0 +1,29 @@
+<!-- JS -->
+<!-- 
+<script src="static/vendors/jquery/jquery.min.js"></script> -->
+<script src="static/vendors/bootstrap/js/bootstrap.min.js"></script>
+<script src="static/vendors/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="static/vendors/jquery.easing/jquery.easing.min.js"></script>
+<script src="static/vendors/venobox/venobox.min.js"></script>
+<script src="static/vendors/superfish/superfish.min.js"></script>
+<script src="static/vendors/hoverIntent/hoverIntent.js"></script>
+<script src="static/js/main.js"></script>
+<!-- Js external link -->
+<!-- JavaScript Bundle with Popper -->
+<!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script> -->
+<script>
+    $(document).ready(function() {
+        $('.chat-box').scrollTop($('.chat-box-size').height() + 50000);
+    });
+    var myCarousel = document.getElementById('myCarousel')
+    myCarousel.addEventListener('slide.bs.carousel', function () {
+    // do something...
+    })
+    var myCarousel = document.querySelector('#myCarousel')
+    var carousel = new bootstrap.Carousel(myCarousel)
+    var myCarousel = document.querySelector('#myCarousel')
+    var carousel = new bootstrap.Carousel(myCarousel, {
+    interval: 2000,
+    wrap: false
+    })
+</script>
